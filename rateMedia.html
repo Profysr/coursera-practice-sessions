@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rate the Media</title>
+  </head>
+  <body>
+    <header>Logo</header>
+    <nav>
+      <ul>
+        <li><a href="#">link 1</a></li>
+        <li><a href="#">link 2</a></li>
+        <li><a href="#">link 3</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Rate the Media</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio placeat
+        laboriosam est nulla corrupti sed nostrum.
+      </p>
+      <video width="320px" height="240px" controls muted>
+        <source src="#" type="mp4" />
+      </video>
+      <form action="#" method="get">
+        <div>
+          <label for="rating">Rating</label>
+          <input
+            type="range"
+            name="rating"
+            id="rating"
+            min="1"
+            max="5"
+            list="ratings"
+          />
+          <datalist id="ratings">
+            <option value="1" label="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5" label="5">5</option>
+          </datalist>
+        </div>
+        <button type="submit">Submit Rating</button>
+      </form>
+    </main>
+  </body>
+</html>

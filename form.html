@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+
+    <!-- Required Meta Tags thats affects search engine optimization -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Description of the Website" />
+    <meta name="author" content="xyz" />
+    <meta name="robot" content="index,follow" />
+
+    <!-- Optional Meta Tags -->
+    <meta name="googlebot" content="notranslate" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="keywords" content="keyword1,keyword2,keyword3,keyword4" />
+
+    <!-- Open Graph Protocols that allows webpages to describe themselves to the social networks -->
+
+    <meta property="og:title" content="SignUp Page of Lemon Restaurant" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="www.google.com" />
+    <meta property="og:image" content="logo.png" />
+
+    <!-- Optional OG Tags -->
+    <meta
+      property="og:description"
+      content="Breifly describe the content of page like it can be used to signup"
+    />
+    <meta property="og:locale" content="en-US" />
+    <meta property="og:site_name" content="Form" />
+
+    <style>
+      input:focus:invalid {
+        border: 2px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Logo</header>
+    <main>
+      <h2>SignUp Form</h2>
+      <form action="#" method="post">
+        <div>
+          <label for="fname" id="fname">FirstName</label><br />
+          <input type="fname" minlength="3" maxlength="6" required />
+        </div>
+        <div>
+          <label for="lname" id="lname">LastName</label><br />
+          <input type="lname" minlength="3" maxlength="6" required />
+        </div>
+        <div>
+          <label for="email">Email</label><br />
+          <input
+            type="email"
+            id="email"
+            minlength="8"
+            maxlength="14"
+            required
+          />
+        </div>
+        <div>
+          <label for="password">Password</label><br />
+          <input type="password" id="password" />
+        </div>
+        <div>
+          <label for="cPassword">Confirm Password </label><br />
+          <input type="password" id="cPassword" />
+        </div>
+        <div>
+          <label for="telephone">Phone Number</label><br />
+          <input type="tel" id="telephone" />
+        </div>
+
+        <!-- Checkbox  -->
+        <div>
+          <input type="checkbox" name="cricket" id="cricket" />
+          <label for="cricket">Cricket</label>
+        </div>
+        <div>
+          <input type="checkbox" name="football" id="football" />
+          <label for="football">Football</label>
+        </div>
+        <div>
+          <input type="checkbox" name="hockey" id="hockey" />
+          <label for="hockey">Hockey</label>
+        </div>
+
+        <!-- Radio Button  -->
+        <div>
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>
+        </div>
+
+        <!-- Date  -->
+        <div>
+          <label for="date">Date</label><br />
+          <input type="date" id="date" />
+        </div>
+        <div>
+          <label for="datetime-local">Datetime-local</label><br />
+          <input type="datetime-local" id="datetime-local" />
+        </div>
+
+        <!-- File Input -->
+        <div>
+          <input
+            type="image"
+            src="../project for github/Front Page Design/images/cactus.png"
+            alt="cactus image"
+          />
+        </div>
+        <div>
+          <label for="file">Add your File</label><br />
+          <input type="file" name="file" id="file" />
+        </div>
+
+        <!-- search  -->
+        <div>
+          <label for="search">Search</label><br />
+          <input type="search" name="search" id="search" />
+        </div>
+
+        <div>
+          <label for="color">Color</label><br />
+          <input type="color" name="color" id="color" />
+        </div>
+
+        <div>
+          <button type="submit">Sign Up</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>Copyright</p>
+    </footer>
+  </body>
+</html>

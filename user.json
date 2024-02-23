@@ -1,0 +1,54 @@
+[
+  {
+    "userId": 1,
+    "name": "Bilal",
+    "age": 20,
+    "regNo": "SP21-BSE-004",
+    "coursesEnrolled": {
+      "1": "Computer Vision",
+      "2": "Machine Learning",
+      "3": "Design Pattern",
+      "4": "Software Development Architecture",
+      "5": "Intordcution to Management"
+    }
+  },
+  {
+    "userId": 2,
+    "name": "Javid",
+    "age": 20,
+    "regNo": "SP21-BSE-045",
+    "coursesEnrolled": {
+      "1": "Computer Vision",
+      "2": "Machine Learning",
+      "3": "Design Pattern",
+      "4": "Software Development Architecture",
+      "5": "Intordcution to Management"
+    }
+  },
+  {
+    "userId": 3,
+    "name": "Awais",
+    "age": 20,
+    "regNo": "SP21-BSE-036",
+    "coursesEnrolled": {
+      "1": "Computer Vision",
+      "2": "Machine Learning",
+      "3": "Design Pattern",
+      "4": "Software Development Architecture",
+      "5": "Intordcution to Management"
+    }
+  },
+  {
+    "userId": 4,
+    "name": "Saad Ali",
+    "age": 20,
+    "regNo": "SP21-BSE-029",
+    "coursesEnrolled": {
+      "1": "Computer Vision",
+      "2": "Machine Learning",
+      "3": "Design Pattern",
+      "4": "Software Development Architecture",
+      "5": "Intordcution to Management"
+    }
+  }
+]
